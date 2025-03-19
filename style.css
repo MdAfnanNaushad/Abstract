@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    font-size: 24px;
     padding: 0;
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
@@ -17,10 +18,13 @@ nav {
 
 }
 .heading{
-    margin-left: -118px;
-    right: 20px;
+    position: relative;
+    margin-left: -9rem;
+    margin-top: 4rem;
+    right: 45px;
     z-index: 100;
     color: gold;
+    font-size: 35px;
 }
 .navtop {
     display: flex;
@@ -33,10 +37,9 @@ nav {
     margin-right: -111px;
 }
 .logo{
-    height: 70px;
-    width: 70px;
+    margin-left: 2rem;
+    height: 7rem;
     z-index: 100;
-    margin-right: -111px;
 
 }
 
@@ -45,17 +48,21 @@ nav {
     align-items: center;
     background-color: rgb(41, 44, 44);
     padding: 10px 40px;
-    border-radius: 15px;
-    margin-right: 120px;
+    border-radius: 25px;
+    margin-right: 27rem;
+    height: 40px;
+    width: 264px;
+   
 }
 
 .search>img {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     position: relative;
-    left: 26px;
+    left: -100px;
 }
 
 .searchInput {
+    font-size: larger;
     border: none;
     background-color: transparent;
 }
@@ -77,6 +84,8 @@ nav {
     justify-content: center;
     font-weight: bolder;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: -1rem;
+    margin-top: -3rem;
 
 }
 
@@ -85,7 +94,7 @@ nav {
     cursor: pointer;
     color: azure;
     font-weight: 900;
-    font-size: large;
+    font-size: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
@@ -117,14 +126,15 @@ nav {
 .sliderTiltle {
     position: absolute;
     top: 10%;
-    right: 7%;
-    font-size: 60px;
+    right: 10%;
+    font-size: 71px;
     font-weight: bolder;
     text-align: center;
     color: rgb(13, 7, 56);
     z-index: 1;
     font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: fantasy;
+    text-decoration: underline;
 }
 .sliderTiltle:hover{
     transition: all 1.5s ease-in-out;
@@ -166,7 +176,7 @@ nav {
     position: relative;
     top: 50%;
     left: 175%;
-    font-size: 48px;
+    font-size: 55px;
     font-weight: bolder;
     color: rgb(36, 254, 16);
     background-color: rgb(34, 176, 192);
@@ -252,10 +262,14 @@ nav {
 }
 
 .productImg {
-    width: 50%;
+    width: 53%;
     position: relative;
     right: 25%;
+    height: 77%;
 
+}
+.productprice{
+    font-size: 4rem;
 }
 
 .productDetails {
@@ -274,6 +288,9 @@ nav {
 .productDesc {
     font-style: 24px;
     color: gray;
+}
+.productButton{
+    font-size: larger;
 }
 
 .colors,
@@ -317,8 +334,8 @@ nav {
 }
 
 .payment {
-    width: 500px;
-    height: 500px;
+    width: 745px;
+    height: 700px;
     background-color: white;
     position: absolute;
     top: 0;
@@ -335,8 +352,9 @@ nav {
 }
 
 label {
-    font-size: 14px;
-    font-weight: 300;
+    margin:5px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .payInput {
@@ -346,11 +364,11 @@ label {
 }
 
 .payInput::placeholder {
-    color: darkcyan;
+    color: rgb(69, 73, 73);
 }
 
 .paymentTitle {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(30, 64, 53);
 }
 
@@ -372,14 +390,14 @@ label {
 .checkout {
     background-color: aquamarine;
     position: relative;
-    top: 13px;
+    top: 15rem;
     left: 85%;
     width: fit-content;
     padding-left: 10px;
     padding: 14px;
-    margin: -6px;
+    margin: -45px;
     text-align: center;
-    color: azure;
+    color: rgb(0, 0, 0);
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
@@ -391,19 +409,18 @@ label {
 }
 
 .galleryItem>img {
-    width: 730px;
-    height: 700px;
+    width: 150rem;
+    height: 70rem;
     position: relative;
-    left: 25%;
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.galleryItem>img:hover{
+/* .galleryItem>img:hover{
     transition: all 1ms ease-in;
     object-fit: cover;
     border: 2px solid goldenrod;
-}
+} */
 
 .galleryItem{
     background-color: black;
@@ -415,9 +432,9 @@ label {
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: xx-large;
+    font-size: 5rem;
     font-weight: 900;
-    color: rgba(172, 147, 5, 0.951);
+    color: rgba(251, 214, 5, 0.951);
 }
 
 .newSeason {
@@ -426,6 +443,7 @@ label {
 }
 
 .Subtitle {
+    padding: 84px;
     flex: 1;
     background-color: black;
     color: aliceblue;
@@ -437,10 +455,9 @@ label {
     position: relative;
     border: 2px solid goldenrod;
 }
-.nsImg {
-    width: 700px;
-    height: 700px;
-
+.nsImg2{
+    width: 58rem;
+    height: 46.8rem;
 }
 
 .nsTitle {
@@ -449,14 +466,16 @@ label {
 
 .nsButton {
     padding: 15px;
-    font-weight: 600;
+    font-weight: 900;
     cursor: pointer;
     
 }
 .nsButton:hover{
     border-radius: 15px;
     border: 2px solid rgb(64, 255, 0);
-    transition: all 1s ease-in;
+    transition: all 1ms ease-in;
+    background-color: black;
+    color: whitesmoke;
 }
 
 .footer {
@@ -483,16 +502,18 @@ label {
     justify-content: space-between;
 }
 
-.fInput {
+.finput {
     padding: 5px;
     color: rgb(193, 201, 208);
-    padding: 5px;
+    height: 30px;
+    font-size: 24px;
 }
 
 .fButton {
     padding: 5px;
     background-color: black;
     color: white;
+    font-size: 24px;
 }
 .fButton:hover{
     color: black;
@@ -511,18 +532,18 @@ label {
 }
 
 .fIcons {
-    width: 31px;
-    height: 31px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
 }
 
 .copyright {
     display: flex;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 24px;
     gap: 3;
 }
-@media screen and (max-width :480px) {
+@media screen and (max-width :786px) {
     body{
         width: 100%;
         margin: 0;
