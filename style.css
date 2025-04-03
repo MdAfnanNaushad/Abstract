@@ -148,8 +148,9 @@ nav {
     z-index: 10;
     position: relative;
     left: 93px;
-    mix-blend-mode: multiply;
-    height: 500px;
+    object-fit: contain;
+    height: 16rem;
+    width: 34rem;
 }
 
 .sliderBg {
@@ -569,7 +570,7 @@ label {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 10px;
     }
 
     .menuItem {
@@ -594,6 +595,7 @@ label {
         max-width: 100%;
         display: block;
         margin: auto;
+        gap: 20px;
     }
 
     .sliderBg {
@@ -639,6 +641,7 @@ label {
         border: none;
         cursor: pointer;
         transition: 0.3s;
+        width: 87px;
     }
 
     .buyButton:hover {
@@ -694,9 +697,9 @@ label {
         /* max-width: 373px; */
         object-fit: contain;
     }
-    .imgIcon{
+    /* .imgIcon{
         mix-blend-mode: multiply;
-    }
+    } */
 
     .productTitle {
         position: relative;

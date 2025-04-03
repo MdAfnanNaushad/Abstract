@@ -1,4 +1,3 @@
-console.log("hello")
 const wrapper = document.querySelector(".sliderWrapper")
 const menuItems = document.querySelectorAll(".menuItem");
 const products = [
@@ -8,12 +7,12 @@ const products = [
         price: 525,
         colors: [
             {
-                code: "black",
-                img: "image.png",
+                code: "white",
+                img: "https://www.pngarts.com/files/8/Nike-Air-Force-One-PNG-Transparent-Image.png",
             },
             {
                 code: "blue",
-                img: "image copy.png",
+                img: "https://www.pngarts.com/files/8/Nike-Air-Force-One-PNG-Pic.png",
             },
         ],
     },
@@ -23,12 +22,12 @@ const products = [
         price: 580,
         colors: [
             {
-                code: "black",
-                img: "image copy.png",
+                code: "red",
+                img: "https://www.pngarts.com/files/8/Nike-Air-Force-One-PNG-Free-Download.png",
             },
             {
                 code: "blue",
-                img: "image copy.png",
+                img: "https://www.pngarts.com/files/8/Air-Force-One-White-Nike-Shoes-Transparent-Images.png",
             },
         ],
     },
@@ -39,11 +38,11 @@ const products = [
         colors: [
             {
                 code: "black",
-                img: "image copy 2.png",
+                img: "https://www.pngarts.com/files/8/Nike-Air-Force-One-PNG-Download-Image.png",
             },
             {
                 code: "blue",
-                img: "image copy.png",
+                img: "https://static.sneakerjagers.com/p/mkbLuayvAWrKnn1HL54WU9PcuxLgeEqxaHnokOOg.png",
             },
         ],
     },
