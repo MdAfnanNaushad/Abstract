@@ -504,7 +504,7 @@ label {
 
 .finput {
     padding: 5px;
-    color: rgb(193, 201, 208);
+    color: rgb(0, 0, 0);
     height: 30px;
     font-size: 24px;
 }
@@ -573,7 +573,7 @@ label {
     }
 
     .menuItem {
-        margin: 8px;
+        margin: 35px;
         font-weight: 600;
         font-size: 16px;
         text-align: center;
@@ -601,20 +601,30 @@ label {
         height: auto;
     }
 
-    .sliderTitle {
-        display: none; /* Hides for a clean look */
+    .sliderTiltle {
+        position: absolute;
+        top: -11%;
+        right: 20%;
+        font-size: 60px;
+        font-weight: bolder;
+        text-align: center;
+        color: rgb(13, 7, 56);
+        z-index: 1;
+        font-weight: bolder;
+        font-family: fantasy;
+        text-decoration: underline;
     }
 
-    .sliderPrice {
+    .sliderprice {
         position: absolute;
-        bottom: 15px;
-        left: 15px;
-        background-color: rgba(50, 50, 50, 0.8);
-        padding: 8px 12px;
-        font-size: 14px;
-        font-weight: bold;
-        color: white;
-        border-radius: 5px;
+        top: 76%;
+        left: 5%;
+        font-size: 49px;
+        font-weight: bolder;
+        text-align: center;
+        color: rgb(1, 1, 1);
+        z-index: 1;
+        border: 1px solid gray;
     }
 
     .buyButton {
@@ -660,16 +670,46 @@ label {
         align-items: center;
         gap: 15px;
     }
+    .productDesc {
+        font-size: 20px;
+        color: gray;
+        text-align: center;
+    }
+    .colors{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 9px;
+        bottom: 2rem;
+    }
 
     .productImg {
-        width: 80%;
-        max-width: 350px;
+        right: 1rem;
+        display: flex
+;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        width: 92%;
+        /* max-width: 373px; */
+        object-fit: contain;
+    }
+    .imgIcon{
+        mix-blend-mode: multiply;
     }
 
     .productTitle {
-        font-size: 26px;
-        margin-bottom: 8px;
+        position: relative;
+        top: -25px;
+        font-size: 65px;
+        margin-bottom: 85px;
         text-align: center;
+    }
+    .productprice{
+        position: relative;
+        font-size: 48px;
+        margin-bottom: 115px;
+        right: -26%;
     }
 
     .gallery {
@@ -687,6 +727,12 @@ label {
     }
 
     .nsImg {
+        object-fit: cover;
+        width: 100%;
+        max-width: 385px;
+        height: auto;
+    }
+    .nsImg2 {
         width: 100%;
         max-width: 450px;
         height: auto;
@@ -712,11 +758,12 @@ label {
     .footerLeft,
     .footerRight {
         padding: 15px;
-        width: 90%;
+        width: 88%;
+        font-size: large;
     }
 
     .fMenuTitle {
-        font-size: 18px;
+        font-size: 21px;
     }
 
     .payment {
@@ -741,6 +788,11 @@ label {
 
     .checkout:hover {
         background-color: #444;
+    }
+    .copyright{
+        margin-bottom: -10px;
+        font-size: 15px;
+        margin-top: 10px;
     }
 }
 
