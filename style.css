@@ -737,6 +737,25 @@ label {
         max-width: 450px;
         height: auto;
     }
+    .sizes{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 9px;
+        bottom: 16rem;
+    }
+    .productButton {
+        position: relative;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        bottom: 25rem;
+        left: 8rem;
+    }
 
     .Subtitle {
         overflow-x: hidden;
